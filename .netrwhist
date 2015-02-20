@@ -1,8 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/'
 let g:netrw_dirhist_2='/Users/Sargon'
 let g:netrw_dirhist_3='/Users/Sargon/Dropbox'
 let g:netrw_dirhist_4='/Users/Sargon/Dropbox/Himouto umaru-chan'
 let g:netrw_dirhist_5='/Users/Sargon/Dropbox/Himouto umaru-chan/09_archives'
 let g:netrw_dirhist_6='/Users/Sargon/.vim'
+let g:netrw_dirhist_7='/Users/Sargon/Documents/Unity Projects/NewFactora/.git'
