@@ -31,3 +31,6 @@
 [submodule "bundle/vim-easymotion"]
 	path = bundle/vim-easymotion
 	url = https://github.com/Lokaltog/vim-easymotion.git
+[submodule "bundle/scvim"]
+	path = bundle/scvim
+	url = https://github.com/sbl/scvim.git
