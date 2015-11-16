@@ -2,6 +2,7 @@ execute pathogen#infect()
 inoremap <tab> <esc>
 vnoremap <tab> <esc>
 set so=7
+set hlsearch
 set smartindent
 set expandtab
 set number
@@ -15,6 +16,12 @@ set laststatus=2
 
 set guifont=Meslo\ LG\ S\ for\ Powerline
 set tags=./tags;
+
+nnoremap <Tab> <Esc>
+vnoremap <Tab> <Esc>gV
+onoremap <Tab> <Esc>
+inoremap <Tab> <Esc>`^
+inoremap <Leader><Tab> <Tab>
 
 "nerdtree
 map <C-n> :NERDTreeToggle<CR>
@@ -38,6 +45,7 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+"let g:syntastic_python_python_exec = '/usr/local/bin/python3'
 
 "ctrlp
 let g:ctrlp_map = '<c-p>'
@@ -45,3 +53,15 @@ let g:ctrlp_cmd = 'CtrlP'
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.csproj,*.unity,*.unityproject,*.meta,*.anim " MacOSX/Linux
 set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe,*.csproj,*.unity,*.unityproject,*.meta,*.anim " Windows
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
+
+"easymotion
+map <Leader> <Plug>(easymotion-prefix)
+nmap s <Plug>(easymotion-s)
+map  / <Plug>(easymotion-sn)
+omap / <Plug>(easymotion-tn)
+map  n <Plug>(easymotion-next)
+map  N <Plug>(easymotion-prev)
+let g:EasyMotion_smartcase = 1
+let g:EasyMotion_use_smartsign_us = 1
+let g:EasyMotion_use_smartsign_jp = 1
+
