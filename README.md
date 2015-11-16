@@ -1,4 +1,4 @@
-== Steps of how to became a 5argon! ==
+== Steps of how to become a 5argon! ==
 - Clone to your home folder
 - Symlink .vimrc inside ~/.vim to your home folder so vim can read it
 `ln -s ~/.vim/.vimrc ~/.vimrc`
@@ -7,5 +7,6 @@
 git submodule init
 git submodule update
 ```
+- Symlink the .bash_profile too!
 - Now install Powerline font by running the .sh file in the font folder.
 - Complete!
