@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="scrollback_unlimited" mtime="1454492392" type="bool" value="true"/>
+	<entry name="background_darkness" mtime="1454500485" type="float" value="0.90128755569458008"/>
+	<entry name="background_type" mtime="1454492356" type="string">
+		<stringvalue>transparent</stringvalue>
+	</entry>
+	<entry name="use_theme_colors" mtime="1454493211" type="bool" value="false"/>
+	<entry name="palette" mtime="1454501471" type="string">
+		<stringvalue>#2E2E34343636:#DF9123C523C5:#E6A0FAE01265:#C4C4A0A00000:#202F7ADEEB84:#757550507B7B:#691BE0A9FE4A:#D3D3D7D7CFCF:#555557575353:#E8F44DA64DA6:#944EEEEE4945:#FCFCE9E94F4F:#7B72D7FEEEEE:#ADAD7F7FA8A8:#B9C7F69CF69C:#EEEEEEEEECEC</stringvalue>
+	</entry>
+	<entry name="alternate_screen_scroll" mtime="1454073825" type="bool" value="true"/>
+	<entry name="background_color" mtime="1454493270" type="string">
+		<stringvalue>#3BBB263A263A</stringvalue>
+	</entry>
+	<entry name="visible_name" mtime="1454500460" type="string">
+		<stringvalue>5argon</stringvalue>
+	</entry>
+	<entry name="bold_color" mtime="1454073825" type="string">
+		<stringvalue>#000000000000</stringvalue>
+	</entry>
+	<entry name="foreground_color" mtime="1454493220" type="string">
+		<stringvalue>#FFFFFFFFFFFF</stringvalue>
+	</entry>
+</gconf>
