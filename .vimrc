@@ -45,14 +45,17 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+let g:syntastic_html_tidy_ignore_errors=['proprietary attribute']
 "let g:syntastic_python_python_exec = '/usr/local/bin/python3'
 
 "ctrlp
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
-set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.csproj,*.unity,*.unityproject,*.meta,*.anim " MacOSX/Linux
-set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe,*.csproj,*.unity,*.unityproject,*.meta,*.anim " Windows
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.csproj,*.unity,*.unityproject,*.unityproj,*.prefab,*.sublime*,*.sln,*.userprefs,*.meta,*.anim " MacOSX/Linux
+set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe,*.csproj,*.unity,*.unityproject,*.unityproj,*.prefab,*.sublime*,*.sln,*.userprefs,*.meta,*.anim " Windows
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
+let g:ctrlp_root_markers = ['.ctrlp']
+let g:ctrlp_max_files=0
 
 "easymotion
 map <Leader> <Plug>(easymotion-prefix)
