@@ -9,4 +9,5 @@ git submodule update
 ```
 - Symlink the .bash_profile too!
 - Now install Powerline font by running the .sh file in the font folder.
+- If on linux the .gconf can change Terminal's color.
 - Complete!
