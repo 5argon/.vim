@@ -34,3 +34,6 @@
 [submodule "bundle/scvim"]
 	path = bundle/scvim
 	url = https://github.com/sbl/scvim.git
+[submodule "bundle/vim-jsx"]
+	path = bundle/vim-jsx
+	url = https://github.com/mxw/vim-jsx.git
