@@ -1,6 +1,7 @@
 execute pathogen#infect()
 inoremap <tab> <esc>
 vnoremap <tab> <esc>
+set backspace=2
 set so=7
 set hlsearch
 set smartindent

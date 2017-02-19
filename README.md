@@ -7,7 +7,12 @@
 git submodule init
 git submodule update
 ```
-- Symlink the .bash_profile too!
+- Copy the .bash_profile too. Somehow .bash_profile cannot be symlinked?
 - Now install Powerline font by running the .sh file in the font folder.
 - If on linux the .gconf can change Terminal's color.
+- There is a OSX terminal profile 5argon.terminal. It contains pastel palette with my favorite yellow-green color.
 - Complete!
+
+Note to self : How to add submodule!
+git submodule add https://github.com/mxw/vim-jsx.git bundle/vim-jsx/
+Like that...
